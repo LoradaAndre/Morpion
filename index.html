@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        </meta>
+    </head>
+    <body>
+        <header>
+            <h1>Jeu du morpion</h1>
+        </header>
+        <main class="content" id="content">
+            <div class="content_j1">
+                <h2>Joueur 1</h2>
+                <h3 id="pseudoJ1"></h3>
+                <h3 id="scoreJ1">Score:</h3>
+            </div>
+            <div class="content_middle">
+                <div class="content_score">
+					<div class="but">
+						<h2 id="rules">Règles de jeu</h2>
+					</div>
+                </div>
+                <div class="content_grid">
+                </div>
+            </div>
+            <div class="content_ordi">
+                <h2>Joueur 2</h2>
+                <h3 id="pseudoJ2"></h3>
+                <h3 id="scoreJ2"></h3>
+            </div>
+        </main>
+        <footer>
+            <p>
+				Un premier joueur (ordi ou vous) clique sur une case pour ajouter son symbole dans une case.
+				<br>
+				Puis c'est au tour de l'autre joueur d'ajouter son symbole dans une case vide.
+				<br>
+				Le but du jeu est de réussir à aligner ses trois symboles, en ligne, colone ou diagonale.
+				<br>
+				Celui qui y arrive remporte alors la partie.
+			</p>
+        </footer>
+        <script type="text/javascript" src="classes/Grille.js" ></script>
+        <script type="text/javascript" src="classes/Joueur.js" ></script>
+        <script type="text/javascript" src="classes/JoueurHumain.js" ></script>
+        <script type="text/javascript" src="classes/JoueurOrdi.js" ></script>
+		<script type="text/javascript" src="classes/State.js" ></script>
+        <script type="text/javascript" src="classes/Main.js" ></script>
+    </body>
+</html>

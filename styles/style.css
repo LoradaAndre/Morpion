@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.content_j1, .content_ordi{
+	text-align: center;
+    width: 50%;
+}
+.content_score{
+	text-align: center;
+    width: 100%;
+}
+.content_middle{
+    width: 100%;
+}
+.content_grid{
+    text-align: center;
+}
+.nodeGrille{
+	background-color: #cbcbcb;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+header{
+	text-align: center;
+}
+h1{
+	padding: 10px;
+}
+.caseGrid{
+	height: 100px;
+	border: 1px solid grey;
+	text-align: center;
+}
+.caseGrid:hover{
+	background-color: #74697b;
+}
+footer{
+	display: none;
+}
